@@ -1,7 +1,9 @@
 # Definición
 def saludo(nombre):
-    print(f"Hola, {nombre}.")
-    return "Saludado"
+    return f"Hola {nombre}"
+
+#Invocación
+print( saludo("Elias") )
 
 def suma(a, b):
     return a + b
